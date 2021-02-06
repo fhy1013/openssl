@@ -56,7 +56,7 @@ void RSAWithFileKey() {
   }
   fclose(fp);
 
-  unsigned char *source = (unsigned char *)"123456789";
+  // unsigned char *source = (unsigned char *)"123456789";
   const std::string str =
       "sdfasdfsldkjeisrowe cjio ivvir rir iire9235320v4890v94tm0v34";
 

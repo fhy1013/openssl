@@ -6,7 +6,8 @@ INCLUDE = -I../inc
 
 CFLAGS = -Wall -g
 
-LIBFLAGS = -L../lib -lssl -lcrypto -lpthread
+# LIBFLAGS = -L../lib -lssl -lcrypto -lpthread
+LIBFLAGS = -L../lib -lcrypto -lpthread
 
 SRCS = $(wildcard *.cpp)
 OBJS = $(patsubst %.cpp,%.o,$(SRCS))
